@@ -18,6 +18,7 @@ def first_challenge
 
   contacts.each do |name, info|
     if info.delete_if("strawberry")
+    end
   #remember to return your newly altered contacts hash!
   end
 end
