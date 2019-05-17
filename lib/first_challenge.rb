@@ -19,7 +19,7 @@ def first_challenge
   contacts.each do |name, info|
     info.each do |attribute, answer|
       delete_if |icecream|
-        icream == "strawberry"
+        iceream == "strawberry"
     end
   end
   #remember to return your newly altered contacts hash!
