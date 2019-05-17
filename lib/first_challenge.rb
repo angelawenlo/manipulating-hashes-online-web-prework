@@ -18,8 +18,8 @@ def first_challenge
 
   contacts.each do |name, info|
     info.each do |attribute, answer|
-      delete_if |icecream|
-        iceream == "strawberry"
+      if attribute == :favorite_icecream_flavors
+        contacts[:answer].delete "strawberry"
     end
   end
   #remember to return your newly altered contacts hash!
