@@ -18,8 +18,8 @@ def first_challenge
 
   contacts.each do |name, info|
     info.each do |attribute, answer|
-      if attribute == "strawberry"
-        contacts[:answer].delete("strawberry")
+      if attribute == :favorite_icecream_flavors
+        delete_if("strawberry")
     end
   end
   #remember to return your newly altered contacts hash!
