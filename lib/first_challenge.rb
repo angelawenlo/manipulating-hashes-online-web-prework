@@ -22,6 +22,7 @@ def first_challenge
         contacts[:answer].delete "strawberry"
     end
   end
+ene
   #remember to return your newly altered contacts hash!
   contacts
 end
