@@ -18,7 +18,8 @@ def first_challenge
 
   contacts.each do |name, info|
     info.each do |info, answer|
-      binding.pry
+      if answer == "strawberry"
+        contacts[:answer].delete("strawberry")
     end
   end
   #remember to return your newly altered contacts hash!
