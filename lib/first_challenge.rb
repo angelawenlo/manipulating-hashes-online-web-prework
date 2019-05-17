@@ -17,7 +17,7 @@ def first_challenge
   #your code here
 
   contacts.each do |name, info|
-    info.each do |info, answer|
+    info.each do |attribute, answer|
       if answer == "strawberry"
         contacts[:answer].delete("strawberry")
     end
