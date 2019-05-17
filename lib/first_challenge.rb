@@ -21,6 +21,7 @@ def first_challenge
       if attribute == :favorite_icecream_flavors
         contacts.delete_if |attribute, value|
         value == "strawberry"
+      end
   end
 end
 end
